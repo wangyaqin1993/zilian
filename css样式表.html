@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+
+		<div style="width:300px;height:200px;background:purple">
+			
+		</div>
+		
+	</body>
+</html>
+
+
+<!-- 
+	1:内部样式表    （最好放在head描述区里面）
+	2：外部样式表
+		怎样导入外部样式表：
+			a : <link rel="stylesheet" href="url" type="text/css">标签
+					rel="stylesheet"   建立关联性！！！
+					href="css样式表的路径"
+					type="text/css"  定义文档类型
+
+			b:  
+				<style>
+					@import url("url");
+				</style>
+
+
+	3:内联样式表！(行内样式表)     <标签 style="css语句"></标签>
+ -->
+
+ <!--  
+	link 和 @import区别：
+		1：本质差别：link属性html语言、@import是css提供的方法！
+		2：加载顺序：link导入的css是和结构同时加载。   @import是等结构加载完之后再加载css
+		3：兼容：  link无兼容问题。   @import  IE低版本不能识别
+		4：js  控制 DOM样式的差别。
+ -->
